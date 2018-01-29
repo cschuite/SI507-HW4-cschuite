@@ -1,7 +1,7 @@
 import random
 
 def ask_question():
-	response = input("What is your question? Enter 'quit' to quit.")
+	response = ""
 	while response != "quit":
 		response = input("What is your question? Enter 'quit' to quit.")
 		if response[-1] != "?":
