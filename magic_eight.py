@@ -4,7 +4,7 @@ def ask_question():
 	response = ""
 	while response != "quit":
 		response = input("What is your question? Enter 'quit' to quit.")
-		while response[-1] != "?":
+		while response[-1] != "?" and response != "quit":
 			print("I'm sorry, I can only answer questions.")
 			response = input("Please input a question this time.")
 		if response == "quit":
